@@ -12,8 +12,6 @@
 --- @see RageUI
 ---
 
-_AdminMenu.loadedAddon("RageUI")
-
 function math.round(num, numDecimalPlaces)
     return tonumber(string.format("%." .. (numDecimalPlaces or 0) .. "f", num))
 end
